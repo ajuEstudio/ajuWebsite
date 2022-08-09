@@ -1,0 +1,308 @@
+<body>
+  <header>
+    <article>
+      <a href="/">
+        <img src="assets/logo_estudio.svg" alt="Logo da Marca" id="logo" />
+      </a>
+    </article>
+    <nav>
+      <aside>
+        <button mat-button><mat-icon>menu</mat-icon></button>
+        <ul>
+          <a mat-button href="#boasVindas"><li>BOAS VINDAS</li></a>
+          <a mat-button href="#quemSomos"><li>QUEM SOMOS</li></a>
+          <a mat-button href="#servicos"><li>SERVIÇOS</li></a>
+          <a mat-button href="#timeCajueiro"><li>CAJUEIRO</li></a>
+          <a mat-button href="#contato"><li>NOSSO CONTATO</li></a>
+        </ul>
+      </aside>
+    </nav>
+  </header>
+  <main>
+    <section id="boasVindas">
+      <aside id="texto-boasVindas">
+        <h1>Bem vindos</h1>
+        <aside id="title">
+          <h4>Ondas de</h4>
+          <h4 id="fontFuzzy">criatividade</h4>
+          <h4>seguindo o ritmo do mar baiano.</h4>
+        </aside>
+      </aside>
+      <article>
+        <img id="imagem-boasVindas" src="assets/mar.svg" alt="Logo da Marca" />
+      </article>
+      <article>
+        <img
+          id="imagem-boasVindas-onda"
+          src="assets/onda.png"
+          alt="Logo da Marca"
+        />
+      </article>
+    </section>
+    <section id="quemSomos">
+      <article>
+        <img
+          id="imagem-QuemSomos"
+          src="assets/propaganda-01.png"
+          alt="Propaganda de celular"
+        />
+      </article>
+      <aside id="texto-quemSomos">
+        <h1>Quem somos ?</h1>
+        <h4>
+          Somos um estúdio online de estratégias criativas para empresas e
+          marcas Brasileiras que buscam posicionamento nas redes sociais.
+        </h4>
+      </aside>
+    </section>
+    <section id="servicos">
+      <h1>Serviços</h1>
+      <aside id="texto-servico">
+        <div id="container-flex">
+          <aside id="container-circulo">
+            <div id="circulo">
+              <h4>1</h4>
+            </div>
+            <h5>Social Media/ gerenciamento de redes sociais</h5>
+          </aside>
+          <aside id="container-circulo">
+            <div id="circulo">
+              <h4>2</h4>
+            </div>
+            <h5>Planejamento estratégico de conteúdo</h5>
+          </aside>
+        </div>
+
+        <div id="container-flex">
+          <aside id="container-circulo">
+            <div id="circulo">
+              <h4>3</h4>
+            </div>
+            <h5>Branding & reebranding</h5>
+          </aside>
+          <aside id="container-circulo">
+            <div id="circulo">
+              <h4>4</h4>
+            </div>
+            <h5>Identidade visual</h5>
+          </aside>
+        </div>
+      </aside>
+      <aside id="texto-servico">
+        <div id="container-flex">
+          <aside id="container-circulo">
+            <div id="circulo">
+              <h4>5</h4>
+            </div>
+            <h5>Produção e direção de fotografia para marcas</h5>
+          </aside>
+          <aside id="container-circulo">
+            <div id="circulo">
+              <h4>6</h4>
+            </div>
+            <h5>Prospecção de público online</h5>
+          </aside>
+        </div>
+        <div id="container-flex">
+          <aside id="container-circulo">
+            <div id="circulo">
+              <h4>7</h4>
+            </div>
+            <h5>Linha visual feed e stories</h5>
+          </aside>
+          <aside id="container-circulo">
+            <div id="circulo">
+              <h4>8</h4>
+            </div>
+            <h5>Tráfego pago</h5>
+          </aside>
+        </div>
+      </aside>
+    </section>
+    <section id="trabalhos">
+      <h1>Trabalhos</h1>
+      <div id="trabalhos-container">
+        <aside id="container-texto">
+          <aside id="linha-texto">
+            <h2>1.</h2>
+            <h3>Social Media/ gerenciamento de redes sociais</h3>
+            <mat-divider></mat-divider>
+          </aside>
+          <aside id="linha-texto">
+            <h2>2.</h2>
+            <h3>Planejamento estratégico de conteúdo</h3>
+            <mat-divider></mat-divider>
+          </aside>
+          <aside id="linha-texto">
+            <h2>3.</h2>
+            <h3>Prospecção de público online</h3>
+            <mat-divider></mat-divider>
+          </aside>
+        </aside>
+        <article>
+          <img
+            id="imagem-instagram"
+            alt="instagram flat308"
+            src="assets/flat308.svg"
+          />
+        </article>
+      </div>
+    </section>
+    <section id="conteudo">
+      <div id="cardImagem">
+        <article id="container-img">
+          <img id="conteudo1" src="assets/conteudo1.png" />
+          <img id="conteudo1" src="assets/conteudo2.png" />
+        </article>
+        <div id="container-texImagem">
+          <aside id="container-texto">
+            <h3>Produção de</h3>
+            <h3 id="fontFuzzy">mídias</h3>
+            <h3>& conteúdo</h3>
+          </aside>
+          <img id="conteudo2" src="assets/conteudo4.png" />
+        </div>
+      </div>
+      <article id="cardImg">
+        <img id="conteudo3" src="assets/conteudo5.png" />
+        <img id="conteudo4" src="assets/conteudo3.png" />
+      </article>
+    </section>
+    <section id="timeCajueiro">
+      <aside><h1>Cajueiros</h1></aside>
+      <div id="container-mid">
+        <div id="container-time">
+          <swiper [config]="swiperConfig">
+            <ng-template swiperSlide>
+              <div id="container-card">
+                <div id="card" swiper-wrapper>
+                  <div id="card-container-imagem">
+                    <img
+                      id="fotoIndividual"
+                      src="assets/circulo-victoria.png"
+                      alt="Foto de Victoria"
+                    />
+                  </div>
+                  <div id="card-container-texto">
+                    <h2>Victoria</h2>
+                    <h5>
+                      Cofundadora da Ajú, diretora de planejamento e conteúdo
+                      estratégico
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </ng-template>
+            <ng-template swiperSlide>
+              <div id="container-card">
+                <div id="card" swiper-wrapper>
+                  <div id="card-container-imagem">
+                    <img
+                      id="fotoIndividual"
+                      src="assets/circulo-everton.png"
+                      alt="Foto de Everton"
+                    />
+                  </div>
+                  <div id="card-container-texto">
+                    <h2>Everton</h2>
+                    <h5>Design e criador de indentidade visual</h5>
+                  </div>
+                </div>
+              </div>
+            </ng-template>
+            <ng-template swiperSlide>
+              <div id="container-card">
+                <div id="card" swiper-wrapper>
+                  <div id="card-container-imagem">
+                    <img
+                      id="fotoIndividual"
+                      src="assets/circulo-sarah.png"
+                      alt="Foto de Sarah"
+                    />
+                  </div>
+                  <div id="card-container-texto">
+                    <h2>Sarah</h2>
+                    <h5>
+                      Cofundadora da Ajú, produtora e diretora fotográfica
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </ng-template>
+            <ng-template swiperSlide>
+              <div id="container-card">
+                <div id="card" swiper-wrapper>
+                  <div id="card-container-imagem">
+                    <img
+                      id="fotoIndividual"
+                      src="assets/circulo-gabriel.png"
+                      alt="Foto de Gabriel"
+                    />
+                  </div>
+                  <div id="card-container-texto">
+                    <h2>Gabriel</h2>
+                    <h5>Gestor de Tráfego</h5>
+                  </div>
+                </div>
+              </div>
+            </ng-template>
+          </swiper>
+        </div>
+        <aside id="container-bio">
+          <h4>1. equipe da AJÚ</h4>
+          <h4>
+            2. jovens movidos pela energia da criativade<span id="fontFuzzy"
+              >nordestina</span
+            >
+            e brasileira
+          </h4>
+          <div id="desliza-direita">
+            <img id="img-desliza" src="assets/desliza-direita.png" />
+            <h5>Delize para conhecer os integrantes</h5>
+          </div>
+        </aside>
+      </div>
+    </section>
+    <section id="contato">
+      <aside><h1>Contatos</h1></aside>
+      <div id="container-links">
+        <article id="container-icone-contato">
+          <a link href="https://www.instagram.com/ajuestudio/">
+            <img
+              id="icone-contato"
+              src="assets/icone-instagram.svg"
+              alt="foto do icone do instagram"
+            />
+          </a>
+          <a link href="https://bit.ly/3Qi0eAf">
+            <img
+              id="icone-contato"
+              src="assets/icone-whastapp.svg"
+              alt="foto do icone do whatsApp"
+            />
+          </a>
+          <a
+            href="mailto:contatoajuestudio@gmail.com?subject=Gostaria%20de%20fazer%20um%20orçamento"
+          >
+            <img
+              id="icone-contato"
+              src="assets/icone-email.svg"
+              alt="foto do icone do whatsApp"
+            />
+          </a>
+        </article>
+        <aside>
+          <a id="button" mat-button href="https://bit.ly/3Qi0eAf">Orçamento</a>
+        </aside>
+      </div>
+      <div id="texto-rodape">
+        <h5>~Atraia e crie conexão com seus clientes</h5>
+        <img
+          id="logo-aju"
+          src="assets/logotipo-padrao.png"
+          alt="foto do icone do whatsApp"
+        />
+      </div>
+    </section>
+  </main>
+</body>
